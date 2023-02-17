@@ -11,6 +11,7 @@ public class Assignment2Application {
 		String csvFile = "src/main/resources/furniture stores pages.csv";
 		CSVReader.read(csvFile);
 
+
 	}
 
 }
