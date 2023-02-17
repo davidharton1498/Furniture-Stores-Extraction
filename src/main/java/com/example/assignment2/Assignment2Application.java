@@ -8,7 +8,7 @@ public class Assignment2Application {
 
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(Assignment2Application.class, args);
-		String csvFile = "/home/david/furniture stores pages.csv";
+		String csvFile = "src/main/resources/furniture stores pages.csv";
 		CSVReader.read(csvFile);
 
 	}
